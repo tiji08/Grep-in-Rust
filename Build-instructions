@@ -1,0 +1,15 @@
+#-------------Installation steps---------------/
+Run below command to install RUST
+sudo apt-get install rustc
+
+
+#-------------Build steps----------------------/
+./build-scripts/build
+
+
+#-------------Running steps----------------------/
+Binary will be genrated in build folder
+./build/grep
+
+#-------------Build clean----------------------/
+./build-scripts/clean
